@@ -1,0 +1,13 @@
+{
+  "assemblyStates": {
+    "C8FF58A1653_generate.ryTYp38dhrI1v3Gbi1y7qKH2": {
+      "namespace": "UiPath.IntegrationService.Activities.SWEntities.C8FF58A1653_generateTextCompletion_Create.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C8FF58A1653_generateTextCompletion_Create",
+        "hash": "YTdiZUJLeVhNRWpTak9aVHZFYkNnVjU5THE1RTlrV2VGOXU1UzBrZFZyYXIvb2ZsU0c5c29EdnN1Q2ZiZmNFVEI3aDViemlWVDMyRFByK3J1NnFVM0E9PQ",
+        "assemblyName": "C8FF58A1653_generate.ryTYp38dhrI1v3Gbi1y7qKH2"
+      }
+    }
+  }
+}

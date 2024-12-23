@@ -1,0 +1,215 @@
+{
+  "ExportedBy": "StudioWeb",
+  "BundleHash": "VJe7Vz2k7yjgWyIseeiBnq4zEoELDKjVydJ9TpvJQ",
+  "Version": "1.0.0.0",
+  "JitAssemblyCompilerCommands": [
+    {
+      "ProviderName": "CustomEntities",
+      "BundleOptions": {
+        "EntitiesBundle": {
+          "Types": {
+            "choices": {
+              "Name": "choices",
+              "Properties": [
+                {
+                  "Name": "index",
+                  "Type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "Name": "finish_reason",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "Name": "text",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "BaseType": null
+            },
+            "usage": {
+              "Name": "usage",
+              "Properties": [
+                {
+                  "Name": "total_tokens",
+                  "Type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "Name": "prompt_tokens",
+                  "Type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "Name": "completion_tokens",
+                  "Type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "BaseType": null
+            },
+            "generateTextCompletion_Create": {
+              "Name": "generateTextCompletion_Create",
+              "Properties": [
+                {
+                  "Name": "choices",
+                  "Type": {
+                    "DefinitionName": "choices"
+                  },
+                  "IsCollection": true,
+                  "CollectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "Name": "usage",
+                  "Type": {
+                    "DefinitionName": "usage"
+                  }
+                },
+                {
+                  "Name": "created",
+                  "Type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "Name": "model",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "ConstructorArguments": [],
+                        "NamedArguments": [
+                          {
+                            "Name": "Order",
+                            "Value": {
+                              "Value": "2",
+                              "Type": {
+                                "ClrType": "System.Int32, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Name": "id",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "Name": "_object",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "ConstructorArguments": [],
+                        "NamedArguments": [
+                          {
+                            "Name": "PropertyName",
+                            "Value": {
+                              "Value": "\"object\"",
+                              "Type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Name": "text",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "ConstructorArguments": [],
+                        "NamedArguments": [
+                          {
+                            "Name": "Order",
+                            "Value": {
+                              "Value": "16",
+                              "Type": {
+                                "ClrType": "System.Int32, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "BaseType": null
+            }
+          },
+          "Version": 1
+        },
+        "Hash": "a7beBKyXMEjSjOZTvEbCgV59Lq5E9kWeF9u5S0kdVrar/oflSG9soDvsuCfbfcETB7h5bziVT32DPr+ru6qU3A==",
+        "BundleName": "C8FF58A1653_generateTextCompletion_Create"
+      },
+      "EntityAssemblyKey": {
+        "Name": "UiPath.IntegrationService.Activities.SWEntities.C8FF58A1653_generateTextCompletion_Create",
+        "Hash": "YTdiZUJLeVhNRWpTak9aVHZFYkNnVjU5THE1RTlrV2VGOXU1UzBrZFZyYXIvb2ZsU0c5c29EdnN1Q2ZiZmNFVEI3aDViemlWVDMyRFByK3J1NnFVM0E9PQ",
+        "AssemblyName": "C8FF58A1653_generate.ryTYp38dhrI1v3Gbi1y7qKH2"
+      }
+    }
+  ]
+}

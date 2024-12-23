@@ -1,0 +1,46 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "receivedemail&Sequence_1",
+        "download_email_attachment&Sequence_1",
+        "attachments&Sequence_1",
+        "RetriveFiles&Sequence_1",
+        "index&Sequence_1",
+        "Stringresumedata&Sequence_1",
+        "topGeneratedText&Sequence_1",
+        "Response&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "D:/Downloads/Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "receivedemail&Sequence_1",
+        "download_email_attachment&Sequence_1",
+        "attachments&Sequence_1",
+        "RetriveFiles&Sequence_1",
+        "index&Sequence_1",
+        "Stringresumedata&Sequence_1",
+        "topGeneratedText&Sequence_1",
+        "Response&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
